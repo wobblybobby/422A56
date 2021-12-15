@@ -1,16 +1,26 @@
 Student: Bobby Li
+
 Student ID: 045895042
+
 WEB422NAA Assignment 5 & 6
 
 This assignment is developing a purely front-end app using Angular, then hosting it on Netlify.
 
+
 To run this locally, clone this repository using:
+
     git clone url
+
 then
+
     run npm i
+
 to install the necessary dependencies. After that, you can run
+
     ng serve --open
+
 to locally host it and open it in your browser. The default port number is 4200.
+
 
 
 This application simulates a lottery ticket machine. The user can click on the dollar amounts any number of times to add up to the total betting amount (shown on the right). The user then chooses 5 of the 20 numbers as their lottery numbers. Each number can only be chosen once and, if clicked, the button will change color and be disabled. These numbers are displayed on the right.
