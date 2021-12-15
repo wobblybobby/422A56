@@ -1,0 +1,85 @@
+/* .lotteryNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.lotteryNumbers > .break {
+    flex-basis: 100%;
+}
+
+.lotteryNumbers > h3 {
+    margin: 10%;
+} */
+
+/* .lotteryNumbers {
+    width: 600px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(4, 50px);
+    grid-auto-flow: row;
+} */
+h1 {
+    text-align: center;
+}
+
+.lotteryNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 400px;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: rgb(97, 97, 252);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.buttonClicked {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: orange;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.actionButton {
+    width: 150px;
+    margin: 10px;
+    background-color: #444;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

@@ -1,0 +1,12 @@
+.display {
+    height: 400px;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+
+}
+
+.display > #total {
+    position: absolute;
+    bottom: 0;
+}

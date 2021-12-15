@@ -1,0 +1,10 @@
+<h1>Choose 5 numbers</h1>
+<div class="lotteryNumbers">
+    <div *ngFor= "let selected of availableNums"
+    [ngClass]="selected.isPressed == false ? 'button' : 'buttonClicked'" (click)="addSelection(selected)">
+        {{selected.num}}
+    </div>
+
+    <button class="actionButton" (click)="cashOutAlert()" [disabled]="checkLessThanFive()" [ngStyle]="{'background-color':checkLessThanFive() == false ? 'green' : 'gray' }">Cash</button>
+    <button class="actionButton" (click)="clearAmount()" [disabled]="checkLessThanFive()" [ngStyle]="{'background-color':checkLessThanFive() == false ? 'red' : 'gray' }">Clear</button>
+</div>
