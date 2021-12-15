@@ -11,15 +11,14 @@ To run this locally, clone this repository using:
 
     git clone url
 
-then
+then install the necessary dependencies by running the following command:
 
     run npm i
 
-to install the necessary dependencies. After that, you can run
+to locally host it and open it in your browser (default port number is 4200) run the following command:
 
     ng serve --open
 
-to locally host it and open it in your browser. The default port number is 4200.
 
 
 
