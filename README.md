@@ -4,6 +4,8 @@ Student ID: 045895042
 
 WEB422NAA Assignment 5 & 6
 
+netlify link: https://upbeat-hopper-f68503.netlify.app/
+
 This assignment is developing a purely front-end app using Angular, then hosting it on Netlify.
 
 
